@@ -8,3 +8,15 @@ Hey Day is one of longest and most loved traditions on Auburn University's campu
 
 http://sga.auburn.edu/hey-day/
 
+```Shell
+#!/bin/bash
+
+#Program asks user to enter their name.
+echo  "Enter your name:"
+read name
+
+#Program says hey to user
+echo "Hey $name"
+
+exit
+```
